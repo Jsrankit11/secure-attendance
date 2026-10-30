@@ -1,0 +1,196 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root, .dark {
+  --bg-base: #090D16;
+  --bg-surface: #0F1626;
+  --bg-elevated: #162035;
+  --border-subtle: rgba(255, 255, 255, 0.10);
+  --border-hover: rgba(0, 245, 160, 0.40);
+  --accent-emerald: #00F5A0;
+  --accent-cyan: #38BDF8;
+  --accent-primary: #00F5A0;
+  --color-warning: #FBBF24;
+  --color-danger: #F87171;
+  --text-primary: #F8FAFC;
+  --text-muted: #94A3B8;
+  --glass-bg: rgba(15, 22, 38, 0.88);
+  --glass-card: rgba(22, 32, 53, 0.80);
+}
+
+.light {
+  --bg-base: #F8FAFC;
+  --bg-surface: #FFFFFF;
+  --bg-elevated: #F1F5F9;
+  --border-subtle: #CBD5E1;
+  --border-hover: rgba(5, 150, 105, 0.45);
+  --accent-emerald: #059669;
+  --accent-cyan: #0284C7;
+  --accent-primary: #2563EB;
+  --color-warning: #D97706;
+  --color-danger: #DC2626;
+  --text-primary: #0F172A;
+  --text-muted: #475569;
+  --glass-bg: rgba(255, 255, 255, 0.96);
+  --glass-card: #FFFFFF;
+}
+
+/* Light Theme overrides for transparent white badges/tints so they are high contrast */
+.light .bg-white\/\[0\.02\],
+.light .bg-white\/\[0\.03\],
+.light .bg-white\/\[0\.04\],
+.light .bg-white\/\[0\.05\] {
+  background-color: rgba(15, 23, 42, 0.04) !important;
+}
+
+.light .hover\:bg-white\/\[0\.04\]:hover,
+.light .hover\:bg-white\/\[0\.06\]:hover,
+.light .hover\:bg-white\/10:hover {
+  background-color: rgba(15, 23, 42, 0.07) !important;
+}
+
+.light .border-white\/\[0\.06\],
+.light .border-white\/\[0\.08\],
+.light .border-white\/10,
+.light .border-white\/20 {
+  border-color: #CBD5E1 !important;
+}
+
+.light .text-white {
+  color: #0F172A !important;
+}
+
+.light .bg-accent-emerald .text-white,
+.light .bg-danger .text-white,
+.light .bg-red-600 .text-white,
+.light .bg-emerald-600 .text-white,
+.light .bg-black .text-white,
+.light .badge-solid-dark .text-white {
+  color: #FFFFFF !important;
+}
+
+/* Base custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-base);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-elevated);
+  border-radius: 4px;
+  border: 1px solid var(--border-subtle);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 245, 160, 0.3);
+}
+
+/* Perspective Grid Background */
+.cyber-grid-bg {
+  background-image: 
+    linear-gradient(to right, var(--border-subtle) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--border-subtle) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: center center;
+}
+
+/* Perspective 3D Grid container */
+.cyber-perspective-grid {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(to right, rgba(0, 245, 160, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(53, 201, 255, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 70% 50% at 50% 20%, #000 60%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 70% 50% at 50% 20%, #000 60%, transparent 100%);
+  pointer-events: none;
+}
+
+/* Ambient glow blobs */
+.glow-blob-emerald {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 245, 160, 0.12) 0%, transparent 70%);
+  filter: blur(80px);
+  pointer-events: none;
+}
+
+.glow-blob-cyan {
+  position: absolute;
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(53, 201, 255, 0.1) 0%, transparent 70%);
+  filter: blur(90px);
+  pointer-events: none;
+}
+
+/* Glassmorphism helpers */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border-subtle);
+}
+
+.glass-card {
+  background: var(--glass-card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-subtle);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  border-color: var(--border-hover);
+  box-shadow: 0 10px 30px -10px rgba(0, 245, 160, 0.12);
+}
+
+/* Uppercase Micro Mono labels */
+.micro-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* Big Ghost numbers */
+.ghost-number {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 800;
+  color: var(--text-primary);
+  opacity: 0.06;
+  line-height: 1;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Custom selection */
+::selection {
+  background: rgba(0, 245, 160, 0.25);
+  color: #00F5A0;
+}
+
+/* Hide default cursor only when custom cursor is active on non-touch */
+@media (hover: hover) and (pointer: fine) {
+  body.custom-cursor-active {
+    cursor: none;
+  }
+  body.custom-cursor-active a,
+  body.custom-cursor-active button,
+  body.custom-cursor-active input, 
+  body.custom-cursor-active select,
+  body.custom-cursor-active textarea,
+  body.custom-cursor-active [role="button"] {
+    cursor: none;
+  }
+}
