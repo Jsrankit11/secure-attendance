@@ -3,6 +3,26 @@
 > **"Cryptographic Proof of Presence. Zero-Trust Record Integrity."**  
 > *Production-Style Full-Stack Cybersecurity System Built for Hackathons & Enterprise Classrooms*
 
+[![Live Demo on Vercel](https://img.shields.io/badge/Live%20Demo-Vercel%20Production-00F5A0?style=for-the-badge&logo=vercel&logoColor=black)](https://secure-attendance-five.vercel.app)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jsrankit11/secure-attendance)
+[![Security Status](https://img.shields.io/badge/Security%20Suite-20%2F20%20PASSED-brightgreen?style=for-the-badge&logo=shield)](https://github.com/Jsrankit11/secure-attendance)
+
+---
+
+## 🚀 Live Production Links
+
+- **🌐 Live Web Application**: [https://secure-attendance-five.vercel.app](https://secure-attendance-five.vercel.app)
+- **⚡ Serverless Backend API**: [https://secure-attendance-five.vercel.app/api/health](https://secure-attendance-five.vercel.app/api/health)
+- **📂 GitHub Source Code**: [https://github.com/Jsrankit11/secure-attendance](https://github.com/Jsrankit11/secure-attendance)
+
+### 🔑 Demo Credentials:
+- **Instructor (Full Access)**: `a.sharma@cybershield.edu` / `Password@2026!`
+- **Student 1**: `vedika@cybershield.edu` / `Student@2026!`
+- **Student 2**: `shashwat@cybershield.edu` / `Student@2026!`
+- **Student 3**: `ankit@cybershield.edu` / `Student@2026!`
+- **Student 4**: `vaishnavi@cybershield.edu` / `Student@2026!`
+- **Student 5**: `harshit@cybershield.edu` / `Student@2026!`
+
 ---
 
 ## 🌟 Executive Summary
