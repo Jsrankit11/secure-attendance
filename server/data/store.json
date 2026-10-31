@@ -4,7 +4,7 @@
       "_id": "usr-inst-007",
       "name": "Prof. Ankit Sharma",
       "email": "a.sharma@cybershield.edu",
-      "passwordHash": "$2b$12$mgLwiAWS5CfQ0NM0EgX9D.jnR6shmXwf8jlKyrJtAF6A3Mx3YO8/u",
+      "passwordHash": "$2b$12$t2dxP7KxB3rAVb2UjFhffOXKo.o5yQZbY38M0UQZnKLsDeuWfeC4y",
       "role": "Instructor",
       "avatar": "/students/ankit_chaudhary.png",
       "keyFingerprint": "4A7B : E921 : CC04 : 88DF : 1102 : 9B73 : 33BC : FA19",
@@ -16,7 +16,7 @@
       "studentId": "STU-001",
       "name": "Vedika Gupta",
       "email": "vedika.gupta@cybershield.edu",
-      "passwordHash": "$2b$12$5OKr16nfBJ.FZ9bxjCLFR.eFlC5WIiZc7fXUFSVdMHaWsfbfiSYBS",
+      "passwordHash": "$2b$12$XxBGRzLpRp/pxUEOnbsD4emFxm5Bb4eX8ISKQPMscSUVtJN4tMZ8C",
       "role": "Student",
       "avatar": "/students/vedika_gupta.png",
       "keyFingerprint": "A1B2 : C3D4 : E5F6 : 7890 : 1122 : 3344 : 5566 : 7788",
@@ -28,7 +28,7 @@
       "studentId": "STU-002",
       "name": "Shashwat Srivastava",
       "email": "shashwat.srivastava@cybershield.edu",
-      "passwordHash": "$2b$12$5OKr16nfBJ.FZ9bxjCLFR.eFlC5WIiZc7fXUFSVdMHaWsfbfiSYBS",
+      "passwordHash": "$2b$12$XxBGRzLpRp/pxUEOnbsD4emFxm5Bb4eX8ISKQPMscSUVtJN4tMZ8C",
       "role": "Student",
       "avatar": "/students/shashwat_srivastava.png",
       "keyFingerprint": "B2C3 : D4E5 : F6A1 : 8901 : 2233 : 4455 : 6677 : 8899",
@@ -40,7 +40,7 @@
       "studentId": "STU-003",
       "name": "Ankit Chaudhary",
       "email": "ankit.chaudhary@cybershield.edu",
-      "passwordHash": "$2b$12$5OKr16nfBJ.FZ9bxjCLFR.eFlC5WIiZc7fXUFSVdMHaWsfbfiSYBS",
+      "passwordHash": "$2b$12$XxBGRzLpRp/pxUEOnbsD4emFxm5Bb4eX8ISKQPMscSUVtJN4tMZ8C",
       "role": "Student",
       "avatar": "/students/ankit_chaudhary.png",
       "keyFingerprint": "C3D4 : E5F6 : A1B2 : 9012 : 3344 : 5566 : 7788 : 9900",
@@ -52,7 +52,7 @@
       "studentId": "STU-004",
       "name": "Vaishnavi Tiwari",
       "email": "vaishnavi.tiwari@cybershield.edu",
-      "passwordHash": "$2b$12$5OKr16nfBJ.FZ9bxjCLFR.eFlC5WIiZc7fXUFSVdMHaWsfbfiSYBS",
+      "passwordHash": "$2b$12$XxBGRzLpRp/pxUEOnbsD4emFxm5Bb4eX8ISKQPMscSUVtJN4tMZ8C",
       "role": "Student",
       "avatar": "/students/vaishnavi_tiwari.png",
       "keyFingerprint": "D4E5 : F6A1 : B2C3 : 0123 : 4455 : 6677 : 8899 : 0011",
@@ -64,7 +64,7 @@
       "studentId": "STU-005",
       "name": "Harshit Dwivedi",
       "email": "harshit.dwivedi@cybershield.edu",
-      "passwordHash": "$2b$12$5OKr16nfBJ.FZ9bxjCLFR.eFlC5WIiZc7fXUFSVdMHaWsfbfiSYBS",
+      "passwordHash": "$2b$12$XxBGRzLpRp/pxUEOnbsD4emFxm5Bb4eX8ISKQPMscSUVtJN4tMZ8C",
       "role": "Student",
       "avatar": "/students/harshit_dwivedi.png",
       "keyFingerprint": "E5F6 : A1B2 : C3D4 : 1234 : 5566 : 7788 : 9900 : 1122",
@@ -92,9 +92,9 @@
       "auditChainBlock": 1040,
       "verificationMethod": "FACE_AI",
       "faceConfidence": 98.7,
-      "encryptedNotes": "66b825160e1035bbcda92c41da42f4a3acd7aa770d235d998b3dea7727083816",
-      "notesIv": "a0904c8788aaae9a9611a850",
-      "notesAuthTag": "67ca517482c3365ac2fe12f800d93a50"
+      "encryptedNotes": "a47eb117b17f1d6e0ca02fee4244595969cf149077c70969649248db1c45b043",
+      "notesIv": "6627c98597df1ac32bafe561",
+      "notesAuthTag": "7e59a3f87054897a951bd2cc2d3d7422"
     },
     {
       "_id": "att-002",
@@ -115,9 +115,9 @@
       "auditChainBlock": 1041,
       "verificationMethod": "FACE_AI",
       "faceConfidence": 98.7,
-      "encryptedNotes": "7f2ab9117e9141c871ddb81530ec1b82656fdf981fa59f42cf4cde8a250873ed",
-      "notesIv": "fab876b70590655ccdd9893a",
-      "notesAuthTag": "2a1a1a951f694c5e1c4e53024f6f53c2"
+      "encryptedNotes": "6377cc32a8760bbb6536e4accc09a1a1915ddd8ce468a25f174a3d2491132d31",
+      "notesIv": "62a415d9d79cdd8fd14b6ae4",
+      "notesAuthTag": "48665332963294805488ae0a1cf07f47"
     },
     {
       "_id": "att-003",
@@ -138,9 +138,9 @@
       "auditChainBlock": 1042,
       "verificationMethod": "FACE_AI",
       "faceConfidence": 98.7,
-      "encryptedNotes": "b7c48fa066d89cdddcdf0b9f2b65d06f6db43905724830a839d90d1260472245",
-      "notesIv": "6447ab730c5cec292d307085",
-      "notesAuthTag": "9e5d36f9a819b20e63b83c98ec8ca7cf"
+      "encryptedNotes": "e91f96802eaca6f4acbab7db89f97ea51e0a244eaffdbd69cfc3e6e17b2b7b2d",
+      "notesIv": "0fba20b1dbfda166d45e30f1",
+      "notesAuthTag": "aea33e76a30a49e308a7afe514189c9d"
     },
     {
       "_id": "att-004",
@@ -161,9 +161,9 @@
       "auditChainBlock": 1043,
       "verificationMethod": "FACE_AI",
       "faceConfidence": 98.7,
-      "encryptedNotes": "cfcec4e6e7876214116f9bcb51b6679b4452dca5566330f050813928b668d581",
-      "notesIv": "4840504b8538a1e63a57cbf6",
-      "notesAuthTag": "315be9a84d96a74851d1cbd85b29c3f1"
+      "encryptedNotes": "1547f38bb279de35183886477ed072ed0160d70f277c38d9c6ae3644b8894a08",
+      "notesIv": "3b61047dd635bcfd2b279ac5",
+      "notesAuthTag": "1f1e56ebb2f1921fbc59322c9e3d75e6"
     },
     {
       "_id": "att-005",
@@ -183,9 +183,9 @@
       "integrityStatus": "VERIFIED",
       "auditChainBlock": 1044,
       "verificationMethod": "MANUAL",
-      "encryptedNotes": "0d1c63d1dfba1d51be7945cbfb65210ff0d7a88c308864bf12ccdde4b56f2d83f21f4c74730c",
-      "notesIv": "abd0289dd049920f60f98419",
-      "notesAuthTag": "05fd3b3a25f3f209491d3f1f2cd5f9da"
+      "encryptedNotes": "ae861f35e2907b81b33b95ce4355c6993633b7c77e63b8946fa7613630018a17034893862584",
+      "notesIv": "92f7ab4a0db544199a6cb67d",
+      "notesAuthTag": "644c08a56531d1a5b87b343d2007cbba"
     }
   ],
   "auditLogs": [
